@@ -69,5 +69,5 @@ The easy way to connect a button on your Arduino without adding a pull-down resi
 
 By following these steps, you will successfully set up and operate an LED using a push button with your microcontroller. This project serves as an introductory exercise to basic electronics and programming concepts.
 
-Feel free to explore and modify the code to suit your learning and experimentation goals. Happy coding!
+Feel free to explore and modify the code to suit your learning and experimentation goals. 
 
