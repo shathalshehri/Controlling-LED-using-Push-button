@@ -44,7 +44,7 @@ Ensure that your connections are secure and correct before powering on your micr
 
 ## Demo
 
-[![Click to watch demo](thumbnail_image.png)](PushButton-w-LED.MOV)
+[![Click to watch demo](https://github.com/shathalshehri/Controlling-LED-using-Push-button/blob/main/PushButton-w-LED.MOV))
 
 ## Conclusion
 
