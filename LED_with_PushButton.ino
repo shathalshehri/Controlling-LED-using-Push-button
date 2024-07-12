@@ -21,28 +21,25 @@
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
-int ledPin= 7;
-int inPin= 2;
-int val= 0;
+int ledPin = 7;   // Pin connected to LED
+int inPin = 2;    // Pin connected to push button
+int val = 0;      // Variable to store the read value
+
 
 
 void setup() {
   
   pinMode(inPin,INPUT_PULLUP);  //configure inPin as an input and enable the internal pull-up resistor
-  pinMode(7, OUTPUT);
+  pinMode(ledPin, OUTPUT);  // Set the LED pin as output
 }
 
 
 void loop() {
-  val=digitalRead(inPin);
+  val = digitalRead(inPin);  // Read the state of the push button
 
-  if (digitalRead(inPin)== LOW)
-  {
-    digitalWrite(7, HIGH); 
-
+  if (val == LOW) {   // Check if push button is pressed (active low)
+    digitalWrite(ledPin, HIGH);  // Turn on the LED
+  } else {
+    digitalWrite(ledPin, LOW);   // Turn off the LED
   }
-  else{
-
-   digitalWrite(7, LOW);   
-     } 
 }
