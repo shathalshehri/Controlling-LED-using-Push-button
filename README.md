@@ -20,6 +20,12 @@ This circuit diagram illustrates how to correctly wire the push button and LED t
 
 This MOV file is a visual demonstration of the project in action. It showcases how pressing the push button alters the state of the connected LED.
 
+### 4. SetUp.JPG
+
+![Setup Image](SetUp.JPG)
+
+This image shows the physical setup of the components used in this project. Use it as a reference to ensure your hardware setup matches the project requirements.
+
 ## Getting Started
 
 To replicate this project:
@@ -33,18 +39,11 @@ To replicate this project:
 
 2. **Upload Code**: Use the Arduino IDE or similar software to upload the `LED_with_PushButton.ino` code to your microcontroller.
 
-## Running the Code
-
-After uploading the code to your microcontroller, follow these steps:
-
-- Press the push button to turn on the LED.
-- Release the push button to turn off the LED.
-
-Ensure that your connections are secure and correct before powering on your microcontroller.
-
 ## Demo
 
-[![Click to watch demo](https://github.com/shathalshehri/Controlling-LED-using-Push-button/blob/main/PushButton-w-LED.MOV))
+[![Click to watch demo](thumbnail_image.png)](PushButton-w-LED.MOV)
+
+Click the image above to watch a demo of the project in action.
 
 ## Conclusion
 
