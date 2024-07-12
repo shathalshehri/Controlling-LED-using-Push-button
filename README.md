@@ -10,6 +10,16 @@ Welcome to the **Controlling LED using Push Button** project repository. This pr
 
 This file contains the Arduino code used to control the LED with a push button. It manages the interaction between the push button and LED states.
 
+### 2. LEDwPushButtonCode.png
+
+![Circuit Diagram](LEDwPushButtonCode.png)
+
+This circuit diagram illustrates how to correctly wire the push button and LED to your microcontroller. Verify your connections against this diagram before proceeding.
+
+### 3. PushButton-w-LED.MOV
+
+This MOV file is a visual demonstration of the project in action. It showcases how pressing the push button alters the state of the connected LED.
+
 ## Getting Started
 
 To replicate this project:
@@ -25,16 +35,24 @@ To replicate this project:
 
 ## Running the Code
 
-After uploading the code to your microcontroller, the setup allows you to control the LED with the push button as follows:
+After uploading the code to your microcontroller, follow these steps:
 
 - Press the push button to turn on the LED.
 - Release the push button to turn off the LED.
 
 Ensure that your connections are secure and correct before powering on your microcontroller.
 
+## Demo
+
+Watch the demo below to see how the project works:
+
+<video width="640" height="360" controls>
+  <source src="PushButton-w-LED.MOV" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Conclusion
 
 By following these steps, you will successfully set up and operate an LED using a push button with your microcontroller. This project serves as an introductory exercise to basic electronics and programming concepts.
 
 Feel free to explore and modify the code to suit your learning and experimentation goals. Happy coding!
-
