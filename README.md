@@ -44,12 +44,7 @@ Ensure that your connections are secure and correct before powering on your micr
 
 ## Demo
 
-Watch the demo below to see how the project works:
-
-<video width="640" height="360" controls>
-  <source src="PushButton-w-LED.MOV" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Click to watch demo](thumbnail_image.png)](PushButton-w-LED.MOV)
 
 ## Conclusion
 
